@@ -16,4 +16,46 @@
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--text-primary);
+    position: relative;
+}
+
+.badge {
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: .2rem .8rem;
+    color: var(--secondary);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.roundedBadge {
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 4px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 24px;
+    z-index: 9999;
+    top: -12px;
+    font-weight: 900;
+}
+
+
+.badgeActive {
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
 }
