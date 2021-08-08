@@ -1,0 +1,19 @@
+.headerText {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--secondary);
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navLinks {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}

@@ -1,0 +1,89 @@
+{
+    "products": [{
+            "id": 1,
+            "name": "Linen Printed Shirt Fabric  (Unstitched)",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kqwobrk0/fabric/0/m/l/no-unstitched-black-mahadev-shirt-mahi-creations-original-imag4tnbuynwxuxz.jpeg?q=50",
+            "price": 349,
+            "brand": "Mahi creations",
+            "ideal": "Men",
+            "size": "s",
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "name": "Color Block Men Round Neck Multicolor T-Shirt",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kqzj7gw0/t-shirt/y/u/m/m-mss21cn070b-metronaut-original-imag4vn5fwyrzcqg.jpeg?q=50",
+            "price": 296,
+            "brand": "Metronaut",
+            "ideal": "Men",
+            "size": "m",
+            "quantity": 1
+
+        },
+        {
+            "id": 3,
+            "name": "Solid Men Blue Regular Shorts",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kpinwy80/short/x/6/v/34-hlv8000579-highlander-original-imag3qkwdwfszvtn.jpeg?q=50",
+            "price": 519,
+            "brand": "Highlander",
+            "ideal": "Men",
+            "size": "xl",
+            "quantity": 1
+
+        },
+        {
+            "id": 7,
+            "name": "Skinny Women Blue Jeans",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kehfi4w0-0/jean/e/e/g/28-aw20hwj014-herway-original-imafv5zn2z764cxx.jpeg?q=50",
+            "price": 529,
+            "brand": "Herway",
+            "ideal": "Women",
+            "size": "l",
+            "quantity": 1
+
+        }, {
+            "id": 8,
+            "name": "Skinny Women Black Jeans",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kfoapow0-0/jean/e/b/r/32-ss19hwjn007-herway-original-imafw2g52gzv6kf7.jpeg?q=50",
+            "price": 636,
+            "brand": "Herway",
+            "ideal": "Women",
+            "size": "m",
+            "quantity": 1
+
+        },
+        {
+            "id": 4,
+            "name": "Men Slim Fit Striped Mandarin Collar Casual Shirt",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kfoapow0-0/shirt/u/j/2/xl-hlsh010239-highlander-original-imafw2gqtr39hw3h.jpeg?q=50",
+            "price": 479,
+            "brand": "Highlander",
+            "ideal": "Men",
+            "size": "xxl",
+            "quantity": 1
+
+        },
+        {
+            "id": 5,
+            "name": "Women Kurta and Palazzo Set Cotton Blend",
+            "image": "https://rukminim1.flixcart.com/image/660/792/keq058w0/ethnic-set/y/d/b/xxl-jkplz3994-jaipur-kurti-original-imafvbsfzvekggvs.jpeg?q=50",
+            "price": 1579,
+            "brand": "Jaipur Kurti",
+            "ideal": "Women",
+            "size": "s",
+            "quantity": 1
+
+        },
+        {
+            "id": 6,
+            "name": "Women Kurta and Pant Set Silk Blend",
+            "image": "https://rukminim1.flixcart.com/image/660/792/kq2o2vk0/ethnic-set/d/n/u/l-jkplz4456-jaipur-kurti-original-imag45tp4auqkscm.jpeg?q=50",
+            "price": 1351,
+            "brand": "Jaipur Kurti",
+            "ideal": "Women",
+            "size": "m",
+            "quantity": 1
+
+        }
+    ]
+}

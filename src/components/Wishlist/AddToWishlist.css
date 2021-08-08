@@ -1,0 +1,61 @@
+.wishlistIconsWrapper {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-color: var(--background-light);
+    height: 2rem;
+    border-radius: 100%;
+    width: 2rem;
+}
+
+.wishlistIcons {
+    text-align: center;
+    margin: 4px auto 0 auto;
+    display: block;
+    font-size: 1.4rem;
+    color: var(--dark);
+}
+
+.wishlistIconFilled {
+    color: var(--danger);
+}
+
+.card {
+    position: relative;
+    margin: 1rem 0;
+    border-radius: 3px;
+    border-radius: .2rem;
+    border: 1px solid var(--border-light);
+}
+
+.card:hover {
+    box-shadow: 0 2px 6px 2px rgb(40 44 63 / 7%);
+}
+
+.cardBody {
+    padding: 1rem;
+}
+
+.cardImage {
+    width: 100%;
+    height: 200px;
+    border-radius: .2rem;
+}
+
+.closeButton {
+    border-radius: .6rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 99;
+    right: 1rem;
+    color: var(--danger);
+    font-size: 1.4rem;
+}
+
+.wishlistItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
+    grid-gap: 1.6rem;
+    margin: 2rem 0;
+}

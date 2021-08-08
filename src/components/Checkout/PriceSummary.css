@@ -1,0 +1,42 @@
+.bagPrice {
+    border-left: 1px solid var(--border-light);
+    padding: 0 1rem;
+}
+
+.bagSummaryTitle {
+    text-align: center;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.bagSummaryWrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.bagText {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.itemPrice {
+    color: #363636;
+    font-weight: 500;
+}
+
+.taxPrice {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.totalAmount {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark);
+}

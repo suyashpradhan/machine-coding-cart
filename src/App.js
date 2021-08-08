@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { useStateContext } from "./context";
+import axios from "axios";
+import { ProductListing } from "./components/ProductListing";
+import { Route, Routes } from "react-router";
+import { Header } from "./components/Header";
+import { Wishlist } from "./pages/Wishlist/Wishlist";
+import { Bag } from "./pages/Bag";
 
-function App() {
+export const App = () => {
+  const { dispatch } = useStateContext();
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const { data } = await axios.get("products.json");
+        dispatch({ type: "SET_PRODUCTS", payload: data.products });
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <Header />
 
-export default App;
+      <Routes>
+        <Route exact path="/" element={<ProductListing />}></Route>
+        <Route path="/wishlist" element={<Wishlist />}></Route>
+        <Route path="/bag" element={<Bag />}></Route>
+      </Routes>
+    </>
+  );
+};
