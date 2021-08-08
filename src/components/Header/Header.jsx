@@ -23,15 +23,15 @@ export const Header = () => {
               <span className="roundedBadge badgeActive">{bag.length}</span>
             )}
           </Link>
-          <Link
-            to="https://github.com/suyashpradhan/machine-coding-round-ecomm"
+          <a
+            href="https://github.com/suyashpradhan/machine-coding-cart"
             alt="Github"
             target="_blank"
             rel="noopener"
             className="navLinks"
           >
             Github
-          </Link>
+          </a>
         </nav>
       </header>
     </>
